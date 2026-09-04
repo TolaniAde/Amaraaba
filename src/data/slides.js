@@ -11,7 +11,7 @@ export const heroSlides = [
     description:
       "We provide free, quality vocational training that equips young people, mothers and communities with practical skills for self-reliance and a better future.",
 
-    image: "/images/hero-1.jpg",
+    image: "/images/IMG-20250911-WA0245.jpg",
   },
 
   {
@@ -26,7 +26,7 @@ export const heroSlides = [
     description:
       "Gain practical vocational skills that can help you build confidence, create income and contribute meaningfully to your community.",
 
-    image: "/images/hero-2.jpg",
+    image: "/images/Volunteer.jpg",
   },
 
   {
@@ -41,6 +41,6 @@ export const heroSlides = [
     description:
       "Our vocational training programs provide practical skills that help individuals create opportunities and build a better future.",
 
-    image: "/images/hero-3.jpg",
+    image: "/images/training.jpg",
   },
 ];
