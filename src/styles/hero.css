@@ -1,0 +1,404 @@
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.hero {
+  position: relative;
+
+  width: 100%;
+  min-height: 680px;
+
+  overflow: hidden;
+
+  background: var(--soft-bg);
+}
+
+
+/* =========================================
+   BACKGROUND IMAGE
+========================================= */
+
+.hero-background {
+  position: absolute;
+
+  inset: 0;
+
+  background-size: cover;
+  background-position: center;
+
+  transform: scale(1.02);
+
+  transition:
+    opacity 0.8s ease,
+    transform 7s ease;
+}
+
+
+/* =========================================
+   HERO OVERLAY
+========================================= */
+
+.hero-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(31, 53, 51, 0.90) 0%,
+      rgba(31, 53, 51, 0.72) 38%,
+      rgba(31, 53, 51, 0.35) 68%,
+      rgba(31, 53, 51, 0.10) 100%
+    );
+}
+
+
+/* =========================================
+   HERO CONTAINER
+========================================= */
+
+.hero-container {
+  position: relative;
+
+  z-index: 2;
+
+  min-height: 680px;
+
+  display: flex;
+
+  align-items: center;
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.hero-content {
+  max-width: 720px;
+
+  padding: 90px 0;
+}
+
+
+/* =========================================
+   EYEBROW
+========================================= */
+
+.hero-eyebrow {
+  margin-bottom: 20px;
+
+  color: var(--primary);
+
+  font-size: 15px;
+
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.hero h1 {
+  max-width: 720px;
+
+  margin-bottom: 28px;
+
+  color: var(--white);
+
+  font-size: clamp(48px, 6vw, 78px);
+
+  line-height: 1;
+
+  font-weight: 800;
+
+  letter-spacing: -2px;
+
+  text-transform: uppercase;
+}
+
+.hero h1 span {
+  display: block;
+
+  margin-top: 8px;
+
+  color: var(--primary);
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.hero-description {
+  max-width: 600px;
+
+  margin-bottom: 35px;
+
+  color: rgba(255, 255, 255, 0.92);
+
+  font-size: 18px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   HERO BUTTONS
+========================================= */
+
+.hero-buttons {
+  display: flex;
+
+  align-items: center;
+
+  gap: 16px;
+
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  min-height: 54px;
+
+  padding: 0 25px;
+
+  border-radius: 6px;
+
+  font-size: 15px;
+
+  font-weight: 700;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-3px);
+}
+
+
+/* =========================================
+   PRIMARY BUTTON
+========================================= */
+
+.hero-btn-primary {
+  background: var(--primary);
+
+  color: var(--white);
+
+  box-shadow: 0 8px 25px rgba(79, 179, 167, 0.25);
+}
+
+.hero-btn-primary:hover {
+  background: #429d93;
+
+  box-shadow: 0 12px 30px rgba(79, 179, 167, 0.35);
+}
+
+
+/* =========================================
+   SECONDARY BUTTON
+========================================= */
+
+.hero-btn-secondary {
+  border: 2px solid rgba(255, 255, 255, 0.85);
+
+  color: var(--white);
+
+  background: transparent;
+}
+
+.hero-btn-secondary:hover {
+  background: var(--white);
+
+  color: var(--secondary);
+
+  border-color: var(--white);
+}
+
+
+/* =========================================
+   SLIDER ARROWS
+========================================= */
+
+.slider-arrow {
+  position: absolute;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  z-index: 5;
+
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.45);
+
+  border-radius: 50%;
+
+  background: rgba(74, 124, 120, 0.35);
+
+  color: var(--white);
+
+  font-size: 22px;
+
+  backdrop-filter: blur(5px);
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.slider-arrow:hover {
+  background: var(--primary);
+
+  border-color: var(--primary);
+}
+
+.slider-prev {
+  left: 25px;
+}
+
+.slider-next {
+  right: 25px;
+}
+
+
+/* =========================================
+   SLIDER DOTS
+========================================= */
+
+.slider-dots {
+  position: absolute;
+
+  bottom: 32px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  z-index: 5;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+.dot {
+  width: 32px;
+  height: 4px;
+
+  padding: 0;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.5);
+
+  transition:
+    width 0.3s ease,
+    background 0.3s ease;
+}
+
+.dot.active {
+  width: 55px;
+
+  background: var(--primary);
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .hero {
+    min-height: 650px;
+  }
+
+  .hero-container {
+    min-height: 650px;
+  }
+
+  .hero-content {
+    padding: 70px 0;
+  }
+
+  .hero-eyebrow {
+    font-size: 12px;
+
+    letter-spacing: 1px;
+  }
+
+  .hero h1 {
+    font-size: clamp(40px, 11vw, 58px);
+
+    letter-spacing: -1px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+
+    line-height: 1.6;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+
+    align-items: stretch;
+
+    max-width: 300px;
+  }
+
+  .hero-btn {
+    width: 100%;
+  }
+
+  .slider-arrow {
+    width: 40px;
+    height: 40px;
+
+    font-size: 18px;
+  }
+
+  .slider-prev {
+    left: 12px;
+  }
+
+  .slider-next {
+    right: 12px;
+  }
+
+  .slider-dots {
+    bottom: 22px;
+  }
+
+}

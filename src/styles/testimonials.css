@@ -1,0 +1,373 @@
+/* =========================================
+   TESTIMONIALS SECTION
+========================================= */
+
+.testimonials {
+  padding: 110px 8%;
+  background: #e8f6f3;
+  overflow: hidden;
+}
+
+.testimonials-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+/* =========================================
+   SECTION HEADING
+========================================= */
+
+.section-heading {
+  max-width: 720px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.section-label {
+  display: inline-block;
+  margin-bottom: 14px;
+
+  color: #4fb3a7;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.section-heading h2 {
+  margin: 0 0 18px;
+
+  color: #4a7c78;
+
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.15;
+}
+
+.section-heading p {
+  margin: 0;
+
+  color: #4a7c78;
+
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   CAROUSEL
+========================================= */
+
+.testimonial-carousel {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+
+  width: 100%;
+}
+
+
+/* =========================================
+   CAROUSEL WINDOW
+========================================= */
+
+.testimonial-window {
+  flex: 1;
+
+  min-width: 0;
+
+  overflow: hidden;
+}
+
+
+/* =========================================
+   CAROUSEL TRACK
+========================================= */
+
+.testimonial-track {
+  display: flex;
+
+  gap: 24px;
+
+  width: max-content;
+
+  will-change: transform;
+}
+
+
+/* =========================================
+   TESTIMONIAL CARD
+========================================= */
+
+.testimonial-card {
+  box-sizing: border-box;
+
+  min-height: 330px;
+
+  padding: 35px;
+
+  background: #ffffff;
+
+  border-radius: 22px;
+
+  box-shadow: 0 12px 35px rgba(74, 124, 120, 0.08);
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* =========================================
+   QUOTE ICON
+========================================= */
+
+.quote-icon {
+  margin-bottom: 20px;
+
+  color: #4fb3a7;
+
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+
+/* =========================================
+   QUOTE
+========================================= */
+
+.testimonial-quote {
+  flex: 1;
+
+  margin: 0;
+
+  color: #4a7c78;
+
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   PERSON
+========================================= */
+
+.testimonial-person {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  margin-top: 30px;
+}
+
+.testimonial-person img {
+  width: 58px;
+  height: 58px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  border: 3px solid #e8f6f3;
+}
+
+.testimonial-person h4 {
+  margin: 0 0 5px;
+
+  color: #4a7c78;
+
+  font-size: 16px;
+}
+
+.testimonial-person span {
+  color: #4fb3a7;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   ARROWS
+========================================= */
+
+.carousel-arrow {
+  flex-shrink: 0;
+
+  width: 48px;
+  height: 48px;
+
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  color: #4fb3a7;
+
+  font-size: 22px;
+
+  cursor: pointer;
+
+  box-shadow: 0 8px 25px rgba(74, 124, 120, 0.12);
+
+  transition: all 0.3s ease;
+
+  z-index: 2;
+}
+
+.carousel-arrow:hover {
+  background: #4fb3a7;
+
+  color: #ffffff;
+
+  transform: scale(1.05);
+}
+
+
+/* =========================================
+   DOTS
+========================================= */
+
+.testimonial-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 9px;
+
+  margin-top: 40px;
+}
+
+.testimonial-dots button {
+  width: 9px;
+  height: 9px;
+
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #b8dcd7;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.testimonial-dots button.active {
+  width: 25px;
+
+  border-radius: 10px;
+
+  background: #4fb3a7;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1024px) {
+
+  .testimonials {
+    padding: 90px 6%;
+  }
+
+  .testimonial-card {
+    min-height: 320px;
+
+    padding: 30px;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .testimonials {
+    padding: 80px 6%;
+  }
+
+  .section-heading {
+    margin-bottom: 45px;
+  }
+
+  .section-heading h2 {
+    font-size: 32px;
+  }
+
+  .section-heading p {
+    font-size: 15px;
+  }
+
+  .testimonial-carousel {
+    gap: 10px;
+  }
+
+  .testimonial-track {
+    gap: 18px;
+  }
+
+  .testimonial-card {
+    min-height: 320px;
+
+    padding: 28px;
+  }
+
+  .carousel-arrow {
+    width: 40px;
+    height: 40px;
+
+    font-size: 18px;
+  }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 500px) {
+
+  .testimonial-carousel {
+    position: relative;
+
+    display: block;
+  }
+
+  .testimonial-window {
+    width: 100%;
+  }
+
+  .carousel-arrow {
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+  }
+
+  .carousel-arrow:hover {
+    transform: translateY(-50%) scale(1.05);
+  }
+
+  .carousel-prev {
+    left: 10px;
+  }
+
+  .carousel-next {
+    right: 10px;
+  }
+
+}
