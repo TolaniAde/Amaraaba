@@ -25,7 +25,7 @@ function Navbar() {
         {/* Logo */}
         <a href="/" className="logo" onClick={handleLinkClick}>
           <img
-            src="/images/logo.png"
+            src="/images/Amaraaba header logo 1.png"
             alt="Amaraaba Vocational Training Centre"
             className="logo-image"
           />
