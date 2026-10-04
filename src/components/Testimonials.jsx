@@ -4,51 +4,51 @@ import "../styles/testimonials.css";
 const testimonials = [
   {
     id: 1,
-    name: "Grace Johnson",
-    role: "Former Trainee",
-    image: "/images/testimonial-1.jpg",
+    name: " Fuseini Rufaida",
+    role: "from Sanserigu",
+    image: "/images/IMG-20250926-WA0010.jpg",
     quote:
-      "The training gave me more than just a skill. It gave me the confidence to believe that I could build something of my own.",
+      "Since I started the school, my parents are proud and acknowledged positive impact the school is making in my life. I can now cut clothes and sow them completely on my own. This is a big opportunity to those of us who could not raise money to pay for fees and buy the learning tools. Thank you to everyone supporting us, we will make them proud.",
   },
   {
     id: 2,
-    name: "Daniel Williams",
-    role: "Program Participant",
-    image: "/images/testimonial-2.jpg",
+    name: "Abubakari Aisha",
+    role: "from Gusheigu",
+    image: "/images/IMG-20250926-WA0012.jpg",
     quote:
-      "I gained practical knowledge that I could immediately apply. The instructors were supportive, patient, and genuinely interested in our progress.",
+      "I came to Tamale through Mr. Latif's support to pursue my dream of learning hairdressing and makeup, something I couldn't afford before. Before joining Amaraaba VTC, life's challenges led me to wrong choices, but the centre gave me free training, accommodation and feeding. My life has changed; I now see a bright future and hope to open my own shop to support myself and my mother. A heartfelt thank you to Amaraaba VTC and the sponsors in Germany.",
   },
   {
     id: 3,
-    name: "Sarah Thompson",
-    role: "Graduate",
-    image: "/images/testimonial-3.jpg",
+    name: "Nana Aisha",
+    role: "Snzerigu Community",
+    image: "/images/IMG-20250926-WA0013.jpg",
     quote:
-      "My experience at Amaraaba VTC opened my eyes to new opportunities. I now feel better prepared to pursue my goals and support myself.",
+      "I am a mother of two Children. I was always home and hope one day to get the chance to learn something to help my husband. When I heard of Amaraaba VTC. I run to get a form and was given free admission. I learn makeup and hairdressing. Our teachers are amazing and I have achieved so much in the few months being in the school. I can now a lot of hair styles and do my kids ha[ir at] home. Thank u to everyone support.",
   },
   {
     id: 4,
-    name: "Michael Anderson",
-    role: "Entrepreneurship Trainee",
-    image: "/images/testimonial-4.jpg",
+    name: "Sulemana Sumaya Neimpaga",
+    role: "Snzerigu Community",
+    image: "/images/IMG-20250926-WA0014.jpg",
     quote:
-      "The hands-on approach made learning much easier for me. I left the program with a skill I can use to create opportunities for myself.",
+      "I joined Amaraaba VTC to persue my dream of fashion and design. I never believed I could handle a sewing machine but today I can make beautiful dresses. I sincerely thank the sponsors for changing my life and the lives of so many others.",
   },
   {
     id: 5,
-    name: "Anita Brown",
-    role: "Former Student",
-    image: "/images/testimonial-5.jpg",
+    name: "Amari Huda",
+    role: "Snzerigu Community",
+    image: "/images/IMG-20250926-WA0015.jpg",
     quote:
-      "What I appreciated most was the encouragement we received throughout the training. It helped me discover abilities I didn't know I had.",
+      "I have achieved a lot at Amaraaba VTC. First I was in Accra doing labour work to earn money. I always wanted to learn handwork, but we have no money for the fees and the items required. Few months now, I am proud of what I have learnt here and I see a better future ahead.",
   },
   {
     id: 6,
-    name: "David Okafor",
-    role: "Community Participant",
-    image: "/images/testimonial-6.jpg",
+    name: "Abubakari Ruhanna",
+    role: "Wamali Community",
+    image: "/images/IMG-20250926-WA0016.jpg",
     quote:
-      "Amaraaba VTC is helping people gain useful skills and become more confident about their future. I am grateful to have been part of the program.",
+      "I am from Wamali Community. Through this centre, I have learned skills I never thought I could access. I feel ready to start on my own with new opportunities. Thank you to all the sponsors whose generosity has lifted us from hopelessness to hope.",
   },
 ];
 

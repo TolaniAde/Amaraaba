@@ -1,5 +1,12 @@
 import "../styles/footer.css";
 
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaYoutube,
+} from "react-icons/fa6";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -13,29 +20,52 @@ function Footer() {
           </a>
 
           <p>
-            Amaraaba Vocational Training Center (AVTC) is a free 
-            community initiative dedicated to equipping young 
-            people, adolescent mothers, and vulnerable groups with 
-            employable skills and personal development 
+            Amaraaba Vocational Training Center (AVTC) is a free
+            community initiative dedicated to equipping young
+            people, adolescent mothers, and vulnerable groups with
+            employable skills and personal development
             opportunities.
           </p>
 
+          {/* SOCIAL MEDIA */}
           <div className="footer-socials">
-            <a href="#" aria-label="Facebook">
-              f
+
+            <a
+              href="#"
+              aria-label="Facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookF />
             </a>
 
-            <a href="#" aria-label="Instagram">
-              ig
+            <a
+              href="#"
+              aria-label="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
             </a>
 
-            <a href="#" aria-label="LinkedIn">
-              in
+            <a
+              href="#"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn />
             </a>
 
-            <a href="#" aria-label="YouTube">
-              yt
+            <a
+              href="#"
+              aria-label="YouTube"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaYoutube />
             </a>
+
           </div>
         </div>
 
